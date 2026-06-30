@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0382/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0382/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上三洞表文
+  date: '2015-08-29 00:59:01.792405'
+  source:
+    repository: kanripo
+    path: KR5c0382
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0382_000-ZTDZ.yaml, hash: 'sha256:ee0f996af3e84d00baa19519f78fb8f7e6d7937c7684728e241e3e9af102bda7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0382_000-ZTDZ.markers.yaml, hash: 'sha256:85cb1e2f9aa4c3a3445523f6694eb7b5757183f195efc1ab059e18ba70de6f54'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0382_SJB_000-190861c
+    span:
+    - body
+    - 0
+    - 18245
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:b5304c915517d3670b73faca3427087a2d792ebfe314200c07b6d36b87a74e90
